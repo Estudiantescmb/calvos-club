@@ -1,155 +1,32 @@
-html>
-
-<head> 
-
 </head>
-
 <body>
+  <form>
+    <label>Nombre: <input type="text" name="nombre"></label><br><br>
 
-<center>
+    <label>Apellido: <input type="text" name="apellido"></label><br><br>
 
-<h1>SELECTORES</h1>
+    <label>Edad: <input type="text" name="edad"></label><br><br>
 
-<html>
+    Sexo:<br>
+    <input type="radio" name="sexo" value="mujer"> Mujer<br>
+    <input type="radio" name="sexo" value="hombre"> Hombre<br><br>
 
-<head> 
+    <label>Nivel de estudios:
+      <select name="nivel_estudios">
+        <option value="primaria">primaria</option>
+        <option value="secundaria">secundaria</option>
+        <option value="preparatoria">preparatoria</option>
+        <option value="universidad">universidad</option>
+      </select>
+    </label><br><br>
 
-</head>
+    <label>Usuario: <input type="text" name="usuario"></label><br><br>
 
-<body>
+    <label>Contraseña: <input type="password" name="contrasena"></label><br><br>
 
+    <label>Confirmacion de contraseña: <input type="password" name="confirmacion"></label><br><br>
 
-
-
-
-<label for="nombres"> AÑO </label>
-
-<select name="nombres" id="nombres"> 
-
-<option>2020</option>
-
-<option>2022</option>
-
-<option>2023</option>
-
-<option>2024</option>
-
-<option>2025</option>
-
-<option>2026</option>
-
-</select>
-
-
-
+    <input type="submit" value="enviar">
+  </form>
 </body>
-
 </html>
-
-</body>
-
-
-
-
-
-<html>
-
-<head> 
-
-</head>
-
-<body>
-
-
-<label for="nombres"> CURSO </label>
-
-<select name="nombres" id="nombres"> 
-
-<option>PRIMERO</option>
-
-<option>SEGUNDO</option>
-
-<option>TERCERO</option>
-
-<option>CUARTO</option>
-
-<option>QUINTO</option>
-
-<option>SEXTO</option>
-
-<option>SEPTIMO</option>
-
-<option>OCTAVO</option>
-
-<option>NOVENO</option>
-
-<option>DECIMO</option>
-
-<option>ONCE</option>
-
-
-
-
-</select>
-
-</body>
-
-</html>
-
-</body>
-
-
-
-
-
-
-
-<html>
-
-<head> 
-
-</head>
-
-<body>
-
-
-
-
-
-<label for="nombres">MATERIA</label>
-
-<select name="nombres" id="nombres"> 
-
-<option>MATEMATICAS</option>
-
-<option>BIOLOGIA</option>
-
-<option>GEOMETRIA</option>
-
-<option>FISICA</option>
-
-<option>GEOGRAFIA</option>
-
-<option>MUSICA</option>
-
-</select>
-
-
-
-</body>
-
-</html>
-
-</body>
-
-
-
-
-
-<html>
-
-<head> 
-
-</head>
-
-<body>
